@@ -4,7 +4,7 @@ from scipy.stats import norm
 
 chat_id = 238786813 # Ваш chat ID, не меняйте название переменной
 
-def solution(x_success: int, 
+def solution(x_success: int, x_cnt, y_success, y_cnt):
     p_control = x_success / x_cnt
     p_test = y_success / y_cnt
 
